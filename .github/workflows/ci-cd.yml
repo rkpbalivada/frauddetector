@@ -28,6 +28,7 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
           pip install httpx
+          pip install fastapi
 
       - name: Run tests
         run: pytest tests/
